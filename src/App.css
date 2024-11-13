@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.qr-container {
+  width: 322px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 16px;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.title {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 22px;
+}
+.description {
+  color: hsl(216, 15%, 48%);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  .App {
+    padding: 27px;
+    min-width: 287px;
+  }
+  .qr-code {
+    min-width: 287px;
+  }
+  img {
+    width: 287px;
+  }
+}
